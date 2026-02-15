@@ -45,8 +45,8 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe product cards
-document.querySelectorAll('.product-card, .support-card').forEach(card => {
+// Observe product cards, comparison cards, and use cases
+document.querySelectorAll('.product-card, .support-card, .comparison-card, .use-case-item').forEach(card => {
     card.style.opacity = '0';
     card.style.transform = 'translateY(20px)';
     card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
