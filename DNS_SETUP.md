@@ -25,6 +25,10 @@ Value: _f0e53e131f093394b1f063e032f3ccb1.jkddzztszm.acm-validations.aws.
 TTL: 600 seconds
 ```
 
+**⚠️ Important:** When entering in GoDaddy, if it asks:
+- "Do you want this to resolve on _862c038ef6eafa9dabeeec0ba1c31507.awsopenclaw.com instead?"
+- Select **"Yes"** - This prevents duplicate domain (awsopenclaw.com.awsopenclaw.com)
+
 ### Record 2 (for www.awsopenclaw.com):
 ```
 Type: CNAME
@@ -32,6 +36,8 @@ Name: _a6f98b6c5fa4331832d3e4859742bfe9.www.awsopenclaw.com
 Value: _9d99c0fb9795c6f9a935a1955c5ff38d.jkddzztszm.acm-validations.aws.
 TTL: 600 seconds
 ```
+
+**⚠️ Important:** Same for this record - if GoDaddy asks about the name, select **"Yes"** to use the correct subdomain.
 
 4. **Save** all changes
 
